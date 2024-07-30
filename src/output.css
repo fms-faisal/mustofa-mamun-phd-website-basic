@@ -2160,6 +2160,10 @@ html {
   width: 1.5rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
@@ -2229,6 +2233,10 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .gap-4 {
@@ -2355,6 +2363,11 @@ html {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px-6 {
@@ -2553,6 +2566,10 @@ html {
   border-width: 2px;
 }
 
+.hover\:border-4:hover {
+  border-width: 4px;
+}
+
 .hover\:border-b-8:hover {
   border-bottom-width: 8px;
 }
@@ -2605,6 +2622,12 @@ html {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .sm\:h-7 {
+    height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2683,6 +2706,11 @@ html {
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .md\:px-8 {
@@ -2772,6 +2800,10 @@ html {
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .lg\:pt-5 {
