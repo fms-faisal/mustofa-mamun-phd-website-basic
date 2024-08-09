@@ -2175,6 +2175,11 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -2237,6 +2242,10 @@ html {
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-5 {
@@ -2318,8 +2327,20 @@ html {
   place-items: center;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-2 {
@@ -2572,6 +2593,11 @@ html {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2785,6 +2811,11 @@ html {
     margin-right: -2rem;
   }
 
+  .lg\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .lg\:mr-\[5\%\] {
     margin-right: 5%;
   }
@@ -2845,6 +2876,10 @@ html {
     flex-direction: column;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:gap-4 {
     gap: 1rem;
   }
@@ -2857,6 +2892,11 @@ html {
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pb-0 {
@@ -2874,6 +2914,16 @@ html {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
