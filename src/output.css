@@ -3042,4 +3042,26 @@ html {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
+
+  .dark\:text-gray-50 {
+    --tw-text-opacity: 1;
+    color: rgb(249 250 251 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-gray-100 {
+    --tw-text-opacity: 1;
+    color: rgb(243 244 246 / var(--tw-text-opacity));
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:dark\:text-gray-50 {
+      --tw-text-opacity: 1;
+      color: rgb(249 250 251 / var(--tw-text-opacity));
+    }
+
+    .dark\:dark\:text-white {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+  }
 }
