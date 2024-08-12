@@ -2126,6 +2126,10 @@ html {
   position: relative;
 }
 
+.isolate {
+  isolation: isolate;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -2179,6 +2183,11 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -2201,6 +2210,10 @@ html {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .inline-block {
@@ -2261,6 +2274,14 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .min-w-56 {
@@ -2598,6 +2619,10 @@ html {
   font-weight: 600;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .capitalize {
   text-transform: capitalize;
 }
@@ -2658,6 +2683,16 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-50 {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .shadow {
