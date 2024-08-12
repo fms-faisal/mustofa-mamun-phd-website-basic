@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/output.css" rel="stylesheet" />
+    <link href="../../output.css" rel="stylesheet" />
   </head>
   <body class="max-w-[95%] mx-auto">
     <header>
-      <nav class="relative">
+      <nav class="relative z-10">
         <div class="navbar bg-base-100 fixed">
           <div class="navbar-start">
             <div class="dropdown">
@@ -45,11 +45,11 @@
                   </ul>
                 </details> -->
               </li>
-              <li class="border-green-500 border-2 rounded-lg bg-green-500 font-bold text-white"><a href="Econ1100.html">ECON 1100</a></li>
+              <li class="border-green-500 border-2 rounded-lg bg-green-500 font-bold text-white"><a href="Econ1200.html">ECON 1200</a></li>
               <li></li>
             </ul>
           </div>
-          <div class="navbar-end hidden md:flex lg:mr-[5%]">
+          <div class="navbar-end hidden xl:flex lg:mr-[5%]">
             <label class="grid cursor-pointer place-items-center">
               <input type="checkbox" value="synthwave" class="toggle theme-controller bg-base-content col-span-2 col-start-1 row-start-1" />
               <svg
@@ -87,8 +87,9 @@
 
     <main>
       <div class="flex w-full">
-        <aside class="hidden lg:flex lg:flex-col lg:w-1/5 h-full flex-grow mt-20 relative">
-          <div class="lg:w-1/5 fixed border-r-2 border-green-100 px-4 pb-2 rounded-lg">
+        <!-- <aside class="hidden lg:flex lg:flex-col lg:w-1/5 h-full flex-grow mt-20 relative"> -->
+        <aside class="hidden lg:flex min-w-56 mt-20">
+          <div class="fixed max-w-56 border-r-2 border-green-100 px-4 pb-2 rounded-lg">
             <a href=""><p class="p-2 mt-6 text-black font-semibold text-center animate-pulse">University of New Mexico</p></a>
 
             <a href="../Econ2110.html"
@@ -114,7 +115,8 @@
             >
           </div>
         </aside>
-        <div class="w-full lg:w-4/5 flex-grow px-4 mt-10">
+        <!-- <div class="w-full lg:w-4/5 flex-grow px-4 mt-10"> -->
+        <div class="flex-grow px-4 mt-10">
           <section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
             <header>
               <!-- <a href="#">
