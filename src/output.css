@@ -2216,6 +2216,10 @@ html {
   margin-top: 2rem;
 }
 
+.-ml-4 {
+  margin-left: -1rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -2640,6 +2644,10 @@ html {
   padding-left: 2rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2920,6 +2928,19 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .md\:-ml-4 {
+    margin-left: -1rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -2955,6 +2976,11 @@ html {
   .lg\:-mx-8 {
     margin-left: -2rem;
     margin-right: -2rem;
+  }
+
+  .lg\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .lg\:mr-\[5\%\] {
