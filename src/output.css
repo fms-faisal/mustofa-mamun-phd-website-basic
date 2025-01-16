@@ -2210,6 +2210,16 @@ html {
   margin-bottom: auto;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-\[95\%\] {
+  margin-left: 95%;
+  margin-right: 95%;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -2300,6 +2310,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .min-w-56 {
@@ -2647,6 +2661,10 @@ html {
   padding-bottom: 2rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2671,6 +2689,21 @@ html {
 
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -2774,6 +2807,11 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-base-content {
+  --tw-text-opacity: 1;
+  color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity, 1)));
 }
 
 .shadow {
@@ -2964,6 +3002,14 @@ html {
     max-width: 36rem;
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
   .md\:rounded-lg {
     border-radius: 0.5rem;
   }
@@ -3057,6 +3103,18 @@ html {
 
   .lg\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-center {
+    text-align: center;
+  }
+
+  .lg\:text-justify {
+    text-align: justify;
   }
 
   .lg\:text-2xl {
